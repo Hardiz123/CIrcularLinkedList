@@ -65,6 +65,11 @@ public class ClinkedList {
         Node current = head;
         Node temp = tail;
 
+        if(getSize()==1){
+            head=null;
+            return;
+        }
+
         while (current!=tail && current.value!=val) {
             temp = current;
             current=current.next;

@@ -9,7 +9,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         ClinkedList list = new ClinkedList();
-        boolean flag = true;
+        boolean flag = true; 
         while (flag) {
         System.out.println();
         System.out.println("1.Add item to the list at start");
